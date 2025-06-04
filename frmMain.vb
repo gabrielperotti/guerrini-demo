@@ -108,7 +108,7 @@ Partial Public Class frmMain
 
     Private Sub Cmdmigrador_Click(sender As Object, e As EventArgs) Handles Cmdmigrador.Click
         'RunModule("ControlCaja", "caja.exe")
-        MessageBox.Show("Módulo de migración no implementado.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MessageBox.Show(" no implementado.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 
     Private Sub cmdSeguridad_Click(sender As Object, e As EventArgs) Handles cmdSeguridad.Click
