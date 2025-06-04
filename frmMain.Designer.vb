@@ -157,7 +157,7 @@
         ' cmsalir
         ' 
         cmsalir.Image = CType(resources.GetObject("cmsalir.Image"), Image)
-        cmsalir.Location = New Point(530, 398)
+        cmsalir.Location = New Point(683, 387)
         cmsalir.Margin = New Padding(4, 3, 4, 3)
         cmsalir.Name = "cmsalir"
         cmsalir.Size = New Size(122, 84)
