@@ -33,7 +33,7 @@
         ' 
         ' cmdFacturacion
         ' 
-        cmdFacturacion.Font = New Font("Segoe UI", 9.0F)
+        cmdFacturacion.Font = New Font("Segoe UI", 9F)
         cmdFacturacion.ForeColor = SystemColors.ControlText
         cmdFacturacion.Image = CType(resources.GetObject("cmdFacturacion.Image"), Image)
         cmdFacturacion.Location = New Point(345, 28)
@@ -157,7 +157,7 @@
         ' cmsalir
         ' 
         cmsalir.Image = CType(resources.GetObject("cmsalir.Image"), Image)
-        cmsalir.Location = New Point(752, 396)
+        cmsalir.Location = New Point(530, 398)
         cmsalir.Margin = New Padding(4, 3, 4, 3)
         cmsalir.Name = "cmsalir"
         cmsalir.Size = New Size(122, 84)
@@ -171,7 +171,7 @@
         ' 
         ' frmMain
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
